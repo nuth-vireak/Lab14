@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3335472-0a85-4d45-ba11-f0ea8dbfa924" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d3335472-0a85-4d45-ba11-f0ea8dbfa924" name="Changes" comment="asdasdasd">
+      <change afterPath="$PROJECT_DIR$/src/view/StopEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/StopEnginePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/StartEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/StartEnginePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StartEnginePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="controller.Main" />
@@ -75,9 +84,32 @@
       <workItem from="1652774234543" duration="819000" />
       <workItem from="1652775573630" duration="10554000" />
     </task>
+    <task id="LOCAL-00001" summary="asdasdasd">
+      <created>1652795167281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652795167281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdasdasd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdasdasd" />
   </component>
 </project>

@@ -5,12 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StartEnginePanel extends JPanel {
+public class StopEnginePanel extends JPanel {
     private JLabel speedLabel;
     private JLabel mphLabel;
-    private int gear = 0;
+    private int gear = 250;
     private String gearParameter;
-    public StartEnginePanel() throws InterruptedException {
+    public StopEnginePanel() throws InterruptedException {
 
         speedLabel = new JLabel();
         speedLabel.setFont(new Font("JetBrains Mono", Font.PLAIN, 94));
@@ -23,8 +23,8 @@ public class StartEnginePanel extends JPanel {
         Timer timer = new Timer(20, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (gear != 250)
-                    gear++;
+                if (gear != 0)
+                    gear--;
                 gearParameter = String.format("%03d", gear);
                 speedLabel.setText(gearParameter);
             }

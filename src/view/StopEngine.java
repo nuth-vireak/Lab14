@@ -2,13 +2,13 @@ package view;
 
 import javax.swing.*;
 
-public class StartEngine extends JFrame {
+public class StopEngine extends JFrame {
 
-    StartEnginePanel panel;
+    StopEnginePanel panel;
 
-    public StartEngine() throws InterruptedException {
+    public StopEngine() throws InterruptedException {
 
-        panel = new StartEnginePanel();
+        panel = new StopEnginePanel();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

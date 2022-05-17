@@ -83,9 +83,20 @@ public class MainForm extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         if (e.getSource() == startEngineButton) {
-            frame.dispose();
+            //frame.dispose();
             try {
                 StartEngine startEngine = new StartEngine();
+                System.out.println("Clicked");
+            } catch (InterruptedException ex) {
+                throw new RuntimeException(ex);
+            }
+        }
+
+        if (e.getSource() == stopEngineButton) {
+            //frame.dispose();
+            try {
+                System.out.println("Clicked");
+                StopEngine stopEngine = new StopEngine();
             } catch (InterruptedException ex) {
                 throw new RuntimeException(ex);
             }
