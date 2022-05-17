@@ -60,6 +60,7 @@ public class MainForm extends JFrame implements ActionListener {
         stopEngineButton.setFont(new Font("Arial", Font.PLAIN, 15));
         stopEngineButton.setSize(100, 20);
         stopEngineButton.setLocation(270, 450);
+        stopEngineButton.addActionListener(this);
         buttonPanel.add(stopEngineButton);
 
         driveButton = new JButton("Drive");
@@ -86,7 +87,9 @@ public class MainForm extends JFrame implements ActionListener {
             //frame.dispose();
             try {
                 StartEngine startEngine = new StartEngine();
-                System.out.println("Clicked");
+                honda.startEngine();
+                yamaha.startEngine();
+                suzuki.startEngine();
             } catch (InterruptedException ex) {
                 throw new RuntimeException(ex);
             }
@@ -95,8 +98,10 @@ public class MainForm extends JFrame implements ActionListener {
         if (e.getSource() == stopEngineButton) {
             //frame.dispose();
             try {
-                System.out.println("Clicked");
                 StopEngine stopEngine = new StopEngine();
+                honda.stopEngine();
+                yamaha.stopEngine();
+                suzuki.stopEngine();
             } catch (InterruptedException ex) {
                 throw new RuntimeException(ex);
             }
