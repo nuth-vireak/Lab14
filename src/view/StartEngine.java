@@ -7,7 +7,7 @@ public class StartEngine extends JFrame {
 
     StartEnginePanel panel;
 
-    public StartEngine() {
+    public StartEngine() throws InterruptedException {
 
         panel = new StartEnginePanel();
 
